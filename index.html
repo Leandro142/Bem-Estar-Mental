@@ -3,174 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saúde e Bem-Estar</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Viva Bem: Saúde e Bem-estar para Todos - Seu guia completo para uma vida saudável e equilibrada.">
+    <meta name="keywords" content="saúde, bem-estar, alimentação saudável, saúde mental, exercícios físicos, meditação, estilo de vida saudável">
+    <meta name="author" content="Equipe Viva Bem">
+    <title>Viva Bem: Saúde e Bem-estar para Todos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f3f4f6;
-            color: #333;
+            line-height: 1.6;
+            background-color: #000;
+            color: #fff;
         }
         header {
-            background-color: #6bcf85;
+            background: #28a745;
             color: white;
+            padding: 1rem 0;
+        }
+        header .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
             text-align: center;
-            padding: 50px 20px;
         }
         header h1 {
-            font-size: 2.5rem;
             margin: 0;
+            font-size: 2.5rem;
         }
-        header p {
-            font-size: 1.2rem;
-            margin-top: 10px;
+        nav ul {
+            list-style: none;
+            padding: 0;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #4CAF50;
-            padding: 10px 0;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
         }
-        nav a {
+        nav ul li a {
             color: white;
-            padding: 10px 20px;
             text-decoration: none;
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 0.9rem;
-        }
-        nav a:hover {
-            background-color: #45a049;
-            border-radius: 5px;
         }
         .container {
             max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
+            margin: auto;
+            padding: 1rem 20px;
+        }
+        h2 {
+            color: #28a745;
+        }
+        .article {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: #222;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
         }
-        section {
-            margin-bottom: 40px;
+        .article h3 {
+            margin-top: 0;
         }
-        section h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: #4CAF50;
-        }
-        section p {
-            line-height: 1.6;
-        }
-        img {
+        .image-placeholder {
             width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-top: 20px;
+            height: 200px;
+            background: #444;
+            border-radius: 8px;
+            margin: 10px 0;
         }
         footer {
-            background-color: #333;
-            color: white;
             text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
-        }
-        footer p {
-            margin: 0;
-            font-size: 0.9rem;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #4CAF50;
+            padding: 1rem;
+            background: #28a745;
             color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
         }
-        .button:hover {
-            background-color: #45a049;
+        footer a {
+            color: white;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Saúde e Bem-Estar</h1>
-        <p>Transformando sua vida para melhor, um passo de cada vez.</p>
+        <div class="container">
+            <h1>Viva Bem</h1>
+            <p>Saúde e Bem-estar para Todos</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#articles">Artigos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#categorias">Categorias</a>
-        <a href="#artigos">Artigos</a>
-        <a href="#contato">Contato</a>
-    </nav>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Viva Bem:
+Saúde e
+Bem-estar
+para Todos</h2>
+                <p>Bem-vindo ao 'Viva Bem'! Aqui, você encontrará
 
-    <main class="container">
-        <section id="inicio">
-            <h2>Bem-vindo</h2>
-            <p>Descubra como melhorar sua saúde mental, física e emocional com conteúdos de qualidade e dicas práticas.</p>
+ tudo o que precisa para transformar sua saúde 
+
+e alcançar o bem-estar em todas as áreas da sua vida.
+
+ Desde dicas para a saúde mental, até receitas e
+
+ exercícios físicos que se encaixam na rotina diária.
+
+ Embarque nessa jornada conosco!</p>
+            </div>
         </section>
 
-        <section id="sobre">
-            <h2>Sobre Nós</h2>
-            <p>O blog Saúde e Bem-Estar foi criado para inspirar e motivar pessoas a cuidarem melhor de si mesmas, promovendo bem-estar em todas as áreas da vida.</p>
-            <p>Nossa missão é ser uma fonte confiável de informação para quem busca equilíbrio e felicidade.</p>
+        <section id="about">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>O 'Viva Bem' foi criado para promover um estilo de vida saudável e
+equilibrado, fornecendo conteúdo confiável sobre saúde física, mental e
+emocional. Somos uma equipe apaixonada por bem-estar, e acreditamos
+que pequenos hábitos diários podem transformar a vida das pessoas. Nosso
+objetivo é ajudar você a viver melhor, com mais energia, felicidade e
+qualidade de vida.</p>
+            </div>
         </section>
 
-        <section id="categorias">
-            <h2>Categorias</h2>
-            <p>Explore conteúdos divididos em:</p>
-            <ul>
-                <li><a class="button" href="#saude-mental">Saúde Mental</a></li>
-                <li><a class="button" href="#alimentacao-saudavel">Alimentação Saudável</a></li>
-                <li><a class="button" href="#exercicios">Exercícios Físicos</a></li>
-                <li><a class="button" href="#meditacao">Meditação</a></li>
-            </ul>
+        <section id="articles">
+            <div class="container">
+                <h2>Artigos Recentes</h2>
+
+                <div class="article">
+                    <h3>Como Melhorar a Saúde Mental em Tempos de Estresse</h3>
+                    <div class="image-placeholder"></div>
+                    <p>Introdução
+
+O estresse é um dos maiores vilões da saúde mental nos dias de hoje. A pressão no trabalho, preocupações
+financeiras, problemas familiares, e outros fatores, podem aumentar os níveis de estresse e afetar nossa qualidade
+de vida. Neste artigo, vamos compartilhar algumas técnicas eficazes para controlar o estresse e melhorar o seu bem-
+estar emocional.
+
+O que é o Estresse e Como Ele Afeta o Corpo
+
+O estresse é uma reação do corpo a situações de pressão ou ameaça. Quando estamos estressados, o corpo
+libera hormônios como a adrenalina e o cortisol, que ajudam a lidar com a situação, mas quando o estresse se
+torna crônico, esses hormônios podem afetar negativamente a saúde física e mental. Os sintomas mais comuns
+incluem insônia, ansiedade, dores no corpo, falta de concentração e até problemas digestivos.
+
+Técnicas de Relaxamento
+
+Meditação: A meditação é uma das melhores formas de reduzir o estresse. 
+Ao meditar, você concentra sua mente em algo positivo e acalma seus pensamentos. 
+
+Uma técnica simples é a meditação de respiração, onde você foca apenas no ato de respirar profundamente e lentamente.
+
+Respiração Profunda: Respire lentamente, contando até 4 enquanto inspira, 
+segure por 4 segundos e depois expire por 4 segundos. Isso ativa o sistema nervoso parassimpático e ajuda a relaxar.
+
+Exercícios Físicos: A prática regular de exercícios físicos, como caminhada, corrida ou yoga, 
+ajuda a liberar endorfinas, que são neurotransmissores que promovem uma sensação de bem-estar.
+
+Estabeleça uma Rotina de Autocuidado
+
+
+
+
+
+Reserve um tempo todos os dias para cuidar de si mesmo. Isso pode incluir atividades simples como tomar um 
+
+banho relaxante, ouvir música tranquila, ou ler um bom livro. Manter um equilíbrio 
+
+entre trabalho e lazer é fundamental para a saúde mental.
+
+
+
+Como Estabelecer uma Rotina de Descanso
+
+
+
+
+
+O descanso é essencial para a recuperação mental e emocional. Dormir bem à noite, 
+
+evitar trabalhar até tarde, e tirar pequenas pausas durante o dia ajudam a reduzir os níveis de estresse.
+
+
+
+Dicas para Manter o Equilíbrio Emocional
+
+
+
+
+
+Pratique o autocuidado diariamente.
+Estabeleça metas realistas e seja gentil consigo mesmo.
+Evite sobrecarga de informações e redes sociais, especialmente antes de dormir.
+</p>
+                </div>
+
+                <div class="article">
+                    <h3>Alimentação Saudável: Como Manter uma Dieta Equilibrada no Dia a Dia</h3>
+                    <div class="image-placeholder"></div>
+                    <p>Uma dieta equilibrada não precisa ser complicada. Inclua frutas, vegetais, proteínas magras e grãos integrais em suas refeições. Evite alimentos processados e beba bastante água. Planejar suas refeições com antecedência também pode ajudar a manter uma alimentação saudável. Lembre-se de incluir variedade e moderação, permitindo-se ocasionalmente desfrutar de pratos favoritos sem culpa.</p>
+                </div>
+
+                <div class="article">
+                    <h3>Exercícios Simples para Fazer em Casa e Melhorar Sua Saúde Física</h3>
+                    <div class="image-placeholder"></div>
+                    <p>Exercícios como polichinelos, flexões, prancha e agachamentos são ótimos para manter o corpo ativo. Eles não requerem equipamentos e podem ser feitos em qualquer lugar. Dedique pelo menos 30 minutos por dia para exercícios físicos, variando entre cardio e fortalecimento muscular. Lembre-se de alongar antes e depois para evitar lesões.</p>
+                </div>
+
+                <div class="article">
+                    <h3>Meditação para Iniciantes: Como Começar e Seus Benefícios</h3>
+                    <div class="image-placeholder"></div>
+                    <p>Meditar é simples e pode trazer muitos benefícios para a mente e o corpo. Comece com sessões curtas de 5 minutos, focando na respiração. Encontre um lugar tranquilo e confortável para praticar. Com o tempo, você pode aumentar a duração das sessões e aproveitar os benefícios da meditação, como maior clareza mental e redução do estresse.</p>
+                </div>
+
+                <div class="article">
+                    <h3>Importância do Sono para o Bem-estar Geral</h3>
+                    <div class="image-placeholder"></div>
+                    <p>O sono é essencial para a saúde física e mental. Dormir de 7 a 8 horas por noite ajuda na recuperação do corpo, melhora a concentração e fortalece o sistema imunológico. Crie uma rotina noturna, evitando eletrônicos antes de dormir e mantendo um ambiente escuro e silencioso no quarto.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="artigos">
-            <h2>Artigos Recentes</h2>
-            <article id="saude-mental">
-                <h3>Como Melhorar a Saúde Mental em Tempos de Estresse</h3>
-                <p>Dicas práticas para manter a calma e gerenciar o estresse do dia a dia.</p>
-                <img src="Artigo-Saude-Mental.png" alt="Como Melhorar a Saúde Mental">
-            </article>
-
-            <article id="alimentacao-saudavel">
-                <h3>Alimentação Saudável: Um Guia Simples</h3>
-                <p>Como uma boa alimentação pode melhorar sua qualidade de vida.</p>
-                <img src="Artigo-Alimentacao-Saudavel.png" alt="Alimentação Saudável">
-            </article>
-
-            <article id="exercicios">
-                <h3>Exercícios Simples para Fazer em Casa</h3>
-                <p>Manter-se ativo em qualquer lugar nunca foi tão fácil!</p>
-                <img src="Artigo-Exercicios-Simples.png" alt="Exercícios Simples">
-            </article>
-
-            <article id="meditacao">
-                <h3>Meditação para Iniciantes</h3>
-                <p>Comece sua jornada para uma mente tranquila e focada.</p>
-                <img src="Artigo-Meditacao-para-Iniciantes.png" alt="Meditação para Iniciantes">
-            </article>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco para dúvidas ou sugestões.</p>
-            <a class="button" href="mailto:contato@saudeebemestar.com">Envie um e-mail</a>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Saúde e Bem-Estar. Todos os direitos reservados.</p>
-    </footer>
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>lelesilva9439@gmail.com
 </body>
 </html>
